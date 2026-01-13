@@ -45,7 +45,7 @@ h3 {
   background: var(--white);
   padding: 20px 0;
   position: relative;
-  z-index: 1;
+  z-index: 9999;
 }
 
 .nav {
@@ -63,6 +63,7 @@ h3 {
   display: flex;
   gap: 30px;
   align-items: center;
+  z-index: 10000;
 }
 
 .nav-links a {
@@ -84,6 +85,15 @@ h3 {
 a.btn-navbar:hover {
   background: var(--blue950);
   color: var(--white);
+}
+
+/* HAMBURGER MENU */
+.menu-toggle,
+.menu-close {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: none;
 }
 
 /* HERO */
@@ -168,6 +178,12 @@ a.btn-navbar:hover {
   right: 0;
   z-index: 5;
   width: 425px;
+}
+
+.image-left-mobile,
+.image-right-mobile,
+.menu-svg {
+  display: none;
 }
 
 /* FEATURES */
@@ -346,6 +362,16 @@ a.btn-navbar:hover {
 }
 
 @media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+    z-index: 1100;
+  }
+
+  .menu-close {
+    display: none;
+    z-index: 1100;
+  }
+
   .nav-links {
     position: fixed;
     inset: 0;
@@ -358,15 +384,57 @@ a.btn-navbar:hover {
     z-index: 1000;
   }
 
+  .nav-links.active {
+    transform: translateY(0);
+  }
+
   .nav-links a {
     color: var(--white);
     font-size: 18px;
     letter-spacing: 2px;
   }
 
+  .menu-svg {
+    display: flex;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+  }
+
+  .menu-open .menu-toggle {
+    display: none;
+  }
+
+  .menu-open .menu-close {
+    display: block;
+  }
+
   .btn-navbar {
     border-color: var(--white);
     color: var(--white);
+    padding: 14px 40px;
+  }
+
+ .image-left-mobile{
+    display: block;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    width: clamp(120px, 35vw, 220px);
+    z-index: 1;
+  }
+
+  .image-right-mobile {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: clamp(160px, 45vw, 260px);
+    z-index: 1;
   }
 
   .hero-container {
