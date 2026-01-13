@@ -1,32 +1,28 @@
-> <h1> This project is not finished yet! </h1>
-
-<h1 align="center"></h1>
-
-[Insure landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/insure-landing-page-uTU68JV8)
+<h1 align="center">Insure Landing Page | FrontendMentor Challenge</h1>
 
 <div align="center">
+
+This is my solution to the [Insure landing page challenge](https://www.frontendmentor.io/challenges/insure-landing-page-uTU68JV8) on [Frontend Mentor](https://www.frontendmentor.io/). <br>
+This project was very useful **for my CSS practice**.
 
 🌐 [View Live Page]()
 
 </div>
 
+![](assets/images/desktop.png)
+
 ## Features
 
-- Clean **HTML5** structure
-- Responsive design for **mobile & desktop**
--
--
+– Clean **HTML5** structure  
+– Responsive design for **mobile & desktop**  
+– Haburger Menu
 
 ### Built With :
 
-✦ HTML5  
-✦ CSS3 – responsive layout  
-✦ Google Fonts – [DM Serif Display](https://fonts.google.com/specimen/DM+Serif+Display) & [Karla](https://fonts.google.com/specimen/Karla)  
-✦ JavaScript
-
-| Desktop | Mobile |
-| ------- | ------ |
-| ![]()   | ![]()  |
+– HTML5  
+– CSS3 – responsive layout  
+– JavaScript  
+– Google Fonts – [DM Serif Display](https://fonts.google.com/specimen/DM+Serif+Display) & [Karla](https://fonts.google.com/specimen/Karla)
 
 ### Project Structure
 
