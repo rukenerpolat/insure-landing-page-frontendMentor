@@ -5,27 +5,29 @@
 This is my solution to the [Insure landing page challenge](https://www.frontendmentor.io/challenges/insure-landing-page-uTU68JV8) on [Frontend Mentor](https://www.frontendmentor.io/). <br>
 This project was very useful **for my CSS practice**.
 
-🌐 [View Live Page]()
+🌐 [View Live Page](https://insurelandingpage-frontendmentor.netlify.app/)
 
 </div>
 
-![](assets/images/desktop.png)
+<hr>
 
-## Features
-
-– Clean **HTML5** structure  
-– Responsive design for **mobile & desktop**  
-– Haburger Menu
+<img width="1920" height="2981" alt="desktop" src="https://github.com/user-attachments/assets/974e7976-1685-484a-b0a1-492e55464741" />
 
 ### Built With :
-
 – HTML5  
 – CSS3 – responsive layout  
 – JavaScript  
 – Google Fonts – [DM Serif Display](https://fonts.google.com/specimen/DM+Serif+Display) & [Karla](https://fonts.google.com/specimen/Karla)
 
-### Project Structure
+## Features
 
+– Clean **HTML5** structure  
+– Responsive design for **mobile & desktop**  
+– Hamburger Menu
+
+<img width="436" height="767" alt="nav-menu-ss" src="https://github.com/user-attachments/assets/7b3a1efa-c365-450e-9966-d15aa2963c47" />
+
+### Project Structure
 ```
 📂insure-landing-page
 ├── assets/
